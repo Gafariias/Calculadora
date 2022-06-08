@@ -68,7 +68,7 @@ body {
   transition: 1s;
 }
 
-.tecla {
+button {
   margin: 5px;
   font-size: 25px;
   font-weight: 500;
@@ -81,28 +81,21 @@ body {
   transition: .1s;
 }
 
-.tecla:hover {
+button:hover {
   background-color: black;
   color: white;
 }
 
-.tecla:active {
+button:active {
   height: 14vh;
   -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
           box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
-}
-
-.btnPrincipais {
-  background-image: linear-gradient(145deg, #fff0f0f8, #e4969662 50%, #fff0f0f8);
-  border-radius: 10px 0px 10px 10px;
 }
 
 .btnCalculo {
   -webkit-columns: 2;
           columns: 2;
   width: 37%;
-  background-image: linear-gradient(230deg, #fff0f0f8, #e4969662 50%, #fff0f0f8);
-  border-radius: 00px 10px 10px 10px;
 }
 
 #zero {
@@ -149,12 +142,15 @@ body {
 }
 
 @media only screen and (max-width: 650px) {
-  .tecla {
+  button {
     width: 13vw;
     height: 13vw;
   }
-  .tecla:active {
+  button:active {
     height: 12vw;
+  }
+  #tela {
+    overflow: hidden;
   }
   #zero {
     width: 28.5vw;

@@ -14,28 +14,28 @@
         <div class="botoes">
 
             <div class="btnPrincipais">
-                <button data-number class="tecla num" id="sete">7</button>
-                <button data-number class="tecla num" id="oito">8</button>
-                <button data-number class="tecla num" id="nove">9</button>
-                <button data-number class="tecla num" id="quatro">4</button>
-                <button data-number class="tecla num" id="cinco">5</button>
-                <button data-number class="tecla num" id="seis">6</button>
-                <button data-number class="tecla num" id="um">1</button>
-                <button data-number class="tecla num" id="dois">2</button>
-                <button data-number class="tecla num" id="tres">3</button>
-                <button data-number class="tecla num" id="zero">0</button>
-                <button data-number class="tecla num" id="ponto">.</button>
+                <button class="tecla num" id="sete">7</button>
+                <button class="tecla num" id="oito">8</button>
+                <button class="tecla num" id="nove">9</button>
+                <button class="tecla num" id="quatro">4</button>
+                <button class="tecla num" id="cinco">5</button>
+                <button class="tecla num" id="seis">6</button>
+                <button class="tecla num" id="um">1</button>
+                <button class="tecla num" id="dois">2</button>
+                <button class="tecla num" id="tres">3</button>
+                <button class="tecla num" id="zero">0</button>
+                <button class="tecla num" id="ponto">.</button>
             </div>
 
             <div class="btnCalculo">
-                <button data-delete class="tecla" id="CE">CE</button>
-                <button data-operation class="tecla operacao" id="barra">/</button>
-                <button data-operation class="tecla operacao" id="multi">*</button>
+                <button onclick="corrige()" class="espec" id="CE">CE</button>
+                <button class="tecla operacao" id="barra">/</button>
+                <button class="tecla operacao" id="multi">*</button>
 
-                <button data-equals class="tecla" id="igual">=</button>
-                <button data-all-clear class="tecla" id="C">C</button>
-                <button data-operation class="tecla operacao" id="menos">-</button>
-                <button data-operation class="tecla operacao" id="mais">+</button>
+                <button onclick="resultado()" class="espec" id="igual">=</button>
+                <button onclick="limpar()" class="espec" id="C">C</button>
+                <button class="tecla operacao" id="menos">-</button>
+                <button class="tecla operacao" id="mais">+</button>
             </div>
 
         </div>

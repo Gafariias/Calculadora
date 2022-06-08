@@ -71,7 +71,7 @@ body {
 }
 
 //Botões
-.tecla {
+button {
     margin: 5px;
     font-size: 25px;
     font-weight: 500;
@@ -93,16 +93,9 @@ body {
     }
 }
 
-.btnPrincipais {
-    background-image: linear-gradient(145deg, #fff0f0f8, #e4969662 50%, #fff0f0f8);
-    border-radius: 10px 0px 10px 10px;
-}
-
 .btnCalculo {
     columns: 2;
     width: 37%;
-    background-image: linear-gradient(230deg, #fff0f0f8, #e4969662 50%, #fff0f0f8);
-    border-radius: 00px 10px 10px 10px;
 }
 
 
@@ -152,13 +145,17 @@ body {
 
 //Responsividade
 @media only screen and (max-width: 650px){
-    .tecla {
+    button {
         width: 13vw;
         height: 13vw;
 
         &:active {
             height: 12vw
         }
+    }
+
+    #tela {
+        overflow: hidden;
     }
 
     #zero {
