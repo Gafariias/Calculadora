@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./estilos/style.css">
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="corpo">
+        <div class="input" id="tela"></div>
+        <div class="botoes">
+
+            <div class="btnPrincipais">
+                <button data-number class="tecla num" id="sete">7</button>
+                <button data-number class="tecla num" id="oito">8</button>
+                <button data-number class="tecla num" id="nove">9</button>
+                <button data-number class="tecla num" id="quatro">4</button>
+                <button data-number class="tecla num" id="cinco">5</button>
+                <button data-number class="tecla num" id="seis">6</button>
+                <button data-number class="tecla num" id="um">1</button>
+                <button data-number class="tecla num" id="dois">2</button>
+                <button data-number class="tecla num" id="tres">3</button>
+                <button data-number class="tecla num" id="zero">0</button>
+                <button data-number class="tecla num" id="ponto">.</button>
+            </div>
+
+            <div class="btnCalculo">
+                <button data-delete class="tecla" id="CE">CE</button>
+                <button data-operation class="tecla operacao" id="barra">/</button>
+                <button data-operation class="tecla operacao" id="multi">*</button>
+
+                <button data-equals class="tecla" id="igual">=</button>
+                <button data-all-clear class="tecla" id="C">C</button>
+                <button data-operation class="tecla operacao" id="menos">-</button>
+                <button data-operation class="tecla operacao" id="mais">+</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

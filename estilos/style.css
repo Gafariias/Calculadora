@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #301e1e;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.corpo {
+  background-color: #fff0f0f8;
+  border-radius: 15px;
+  padding: 30px;
+  max-width: 600px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+.botoes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#tela {
+  background-color: #e4969662;
+  padding: 2px 10px;
+  overflow-y: hidden;
+  overflow-x: auto;
+  border-radius: 30px 30px 0px 0px;
+  border-bottom: solid 2px gray;
+  text-align: right;
+  font-size: 4.7rem;
+  width: 100%;
+  height: 15vh;
+  margin-bottom: 10px;
+}
+
+#tela::-webkit-scrollbar {
+  height: 10px;
+  background: none;
+  padding: 3px;
+}
+
+#tela::-webkit-scrollbar-thumb {
+  background-color: #969292;
+  border-radius: 8px;
+}
+
+#tela::-webkit-scrollbar-thumb:hover {
+  background-color: #3d3c3c;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.tecla {
+  margin: 5px;
+  font-size: 25px;
+  font-weight: 500;
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: solid thin gray;
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+.tecla:hover {
+  background-color: black;
+  color: white;
+}
+
+.tecla:active {
+  height: 14vh;
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
+}
+
+.btnPrincipais {
+  background-image: linear-gradient(145deg, #fff0f0f8, #e4969662 50%, #fff0f0f8);
+  border-radius: 10px 0px 10px 10px;
+}
+
+.btnCalculo {
+  -webkit-columns: 2;
+          columns: 2;
+  width: 37%;
+  background-image: linear-gradient(230deg, #fff0f0f8, #e4969662 50%, #fff0f0f8);
+  border-radius: 00px 10px 10px 10px;
+}
+
+#zero {
+  width: 32.4vh;
+  border-radius: 100px;
+}
+
+#CE {
+  background-color: #4e6fda;
+}
+
+#CE:hover {
+  color: #4e6fda;
+  background-color: black;
+}
+
+#C {
+  background-color: #db4e4e;
+}
+
+#C:hover {
+  background-color: black;
+  color: #db4e4e;
+}
+
+#mais {
+  background-color: #5ac45a;
+  height: 32.4vh;
+  border-radius: 100px;
+}
+
+#mais:hover {
+  color: #5ac45a;
+  background-color: black;
+}
+
+#igual {
+  background-color: #ece143;
+}
+
+#igual:hover {
+  color: #ece143;
+  background-color: black;
+}
+
+@media only screen and (max-width: 650px) {
+  .tecla {
+    width: 13vw;
+    height: 13vw;
+  }
+  .tecla:active {
+    height: 12vw;
+  }
+  #zero {
+    width: 28.5vw;
+  }
+  #mais {
+    height: 28.5vw;
+  }
+}
+/*# sourceMappingURL=style.css.map */
