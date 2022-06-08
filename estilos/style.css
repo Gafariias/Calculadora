@@ -145,6 +145,8 @@ button:active {
   button {
     width: 13vw;
     height: 13vw;
+    font-size: 16px;
+    font-weight: normal;
   }
   button:active {
     height: 12vw;
