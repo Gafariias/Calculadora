@@ -93,6 +93,15 @@ button {
     }
 }
 
+.operacao,
+.espec {
+
+    &:active {
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
+        height: 100px;
+    }
+}
+
 .btnCalculo {
     columns: 2;
     width: 37%;
@@ -157,7 +166,8 @@ button {
     }
 
     #tela {
-        overflow: hidden;
+        height: 15vw;
+        font-size: 10vw;
     }
 
     #zero {

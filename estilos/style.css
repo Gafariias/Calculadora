@@ -92,6 +92,13 @@ button:active {
           box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
 }
 
+.operacao:active,
+.espec:active {
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
+  height: 100px;
+}
+
 .btnCalculo {
   -webkit-columns: 2;
           columns: 2;
@@ -152,7 +159,8 @@ button:active {
     height: 12vw;
   }
   #tela {
-    overflow: hidden;
+    height: 15vw;
+    font-size: 10vw;
   }
   #zero {
     width: 28.5vw;
