@@ -88,7 +88,6 @@ button {
     }
 
     &:active {
-        height: 14vh;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
     }
 }
@@ -98,7 +97,6 @@ button {
 
     &:active {
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
-        height: 100px;
     }
 }
 
@@ -157,11 +155,17 @@ button {
     button {
         width: 13vw;
         height: 13vw;
-        font-size: 16px;
+        font-size: 17px;
         font-weight: normal;
 
+        &:hover {
+            background-color: white;
+            color: black;
+        }
+
         &:active {
-            height: 12vw
+            color: white;
+            background-color: black;
         }
     }
 
@@ -170,10 +174,60 @@ button {
         font-size: 10vw;
     }
 
-    #zero {
-        width: 28.5vw;
+    #CE {
+
+        &:hover {
+            background-color: $azul;
+            color: black;
+        }
+
+        &:active {
+            background-color: black;
+            color: $azul;
+        }
     }
+
+    #C {
+
+        &:hover {
+            background-color: $vermelho;
+            color: black;
+        }
+
+        &:active {
+            background-color: black;
+            color: $vermelho;
+        }
+    }
+
+    #igual {
+
+        &:hover {
+            background-color: $amarelo;
+            color: black;
+        }
+
+        &:active {
+            background-color: black;
+            color: $amarelo;
+        }
+    }
+    
     #mais {
         height: 28.5vw;
+
+        &:hover {
+            color: black;
+            background-color: $verde;
+        }
+
+        &:active {
+            color: $verde;
+            background-color: black;
+        }
+    }
+
+    #zero {
+        width: 28.5vw;
     }
 }

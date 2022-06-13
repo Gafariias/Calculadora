@@ -87,7 +87,6 @@ button:hover {
 }
 
 button:active {
-  height: 14vh;
   -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
           box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
 }
@@ -96,7 +95,6 @@ button:active {
 .espec:active {
   -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
           box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
-  height: 100px;
 }
 
 .btnCalculo {
@@ -152,21 +150,58 @@ button:active {
   button {
     width: 13vw;
     height: 13vw;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: normal;
   }
+  button:hover {
+    background-color: white;
+    color: black;
+  }
   button:active {
-    height: 12vw;
+    color: white;
+    background-color: black;
   }
   #tela {
     height: 15vw;
     font-size: 10vw;
   }
-  #zero {
-    width: 28.5vw;
+  #CE:hover {
+    background-color: #4e6fda;
+    color: black;
+  }
+  #CE:active {
+    background-color: black;
+    color: #4e6fda;
+  }
+  #C:hover {
+    background-color: #db4e4e;
+    color: black;
+  }
+  #C:active {
+    background-color: black;
+    color: #db4e4e;
+  }
+  #igual:hover {
+    background-color: #ece143;
+    color: black;
+  }
+  #igual:active {
+    background-color: black;
+    color: #ece143;
   }
   #mais {
     height: 28.5vw;
+  }
+  #mais:hover {
+    color: black;
+    background-color: #5ac45a;
+  }
+  #mais:active {
+    color: #5ac45a;
+    background-color: black;
+  }
+  #zero {
+    width: 28.5vw;
   }
 }
 /*# sourceMappingURL=style.css.map */
